@@ -91,12 +91,11 @@ POR_DPD.py Output: Prints detailed console logs showing the exact Positive Outco
   - `Gender_POR_Comparison.png`
   - `age_group_bias_comparison.png`
   - `Fairness_Improvement_Summary.png`
-![accuracy_comparison](https://github.com/shithy96/Msc-Thesis-1M-MovieLens/blob/7dd15f53e79977c8e0780c702f06f9b17c8559c3/accuracy_comparison.png)
-![individual_bias_reduction](https://github.com/shithy96/Msc-Thesis-1M-MovieLens/blob/7dd15f53e79977c8e0780c702f06f9b17c8559c3/individual_bias_reduction.png)
-![Gender_POR_Comparison](https://github.com/shithy96/Msc-Thesis-1M-MovieLens/blob/7dd15f53e79977c8e0780c702f06f9b17c8559c3/Gender_POR_Comparison.png)
-![age_group_bias_comparison](https://github.com/shithy96/Msc-Thesis-1M-MovieLens/blob/7dd15f53e79977c8e0780c702f06f9b17c8559c3/age_group_bias_comparison.png)
-![Fairness_Improvement_Summary](https://github.com/shithy96/Msc-Thesis-1M-MovieLens/blob/7dd15f53e79977c8e0780c702f06f9b17c8559c3/Fairness_Improvement_Summary.png)
-
+![accuracy_comparison.png](accuracy_comparison.png)
+![Individual_Bias_Reduction.png](Individual_Bias_Reduction.png)
+![Gender_POR_Comparison.png](Gender_POR_Comparison.png)
+![age-group_bias_comparison.png](age_group_bias_comparison.png)
+![Fairness_Improvement_Summary.png](Fairness_Improvement_Summary.png)
 *(Note: `VisualizationBias.py` also generates `individual_bias_bar.png`, `group_gender_bias_bar.png`, `group_age_bias_bar.png`, and `group_occupation_bias_bar.png` as backup visualizations).*
 
 ## License
