@@ -91,11 +91,17 @@ POR_DPD.py Output: Prints detailed console logs showing the exact Positive Outco
   - `Gender_POR_Comparison.png`
   - `age_group_bias_comparison.png`
   - `Fairness_Improvement_Summary.png`
-<img width="1914" height="1469" alt="accuracy_comparison" src="https://github.com/user-attachments/assets/4717bb4a-2bf0-4a70-8fed-7447811e0e37" />
-<img width="2370" height="1766" alt="individual_bias_reduction" src="https://github.com/user-attachments/assets/baed8210-a254-447e-8721-6baa824dc032" />
-<img width="2970" height="2052" alt="Gender_POR_Comparison" src="https://github.com/user-attachments/assets/def390de-f030-4e49-b3fa-1aa18fb45974" />
-<img width="2364" height="1764" alt="Fairness_Improvement_Summary" src="https://github.com/user-attachments/assets/7c55f0e0-f6e8-4e42-b25d-bb144a1c3e44" />
-<img width="3567" height="2405" alt="age_group_bias_comparison" src="https://github.com/user-attachments/assets/fb490457-2eaa-4367-8816-ec828c2c3fc9" />
+
+![accuracy_comparison](https://github.com/user-attachments/assets/4717bb4a-2bf0-4a70-8fed-7447811e0e37)
+
+![individual_bias_reduction](https://github.com/user-attachments/assets/baed8210-a254-447e-8721-6baa824dc032)
+
+![Gender_POR_Comparison](https://github.com/user-attachments/assets/def390de-f030-4e49-b3fa-1aa18fb45974)
+
+![age_group_bias_comparison](https://github.com/user-attachments/assets/fb490457-2eaa-4367-8816-ec828c2c3fc9)
+
+![Fairness_Improvement_Summary](https://github.com/user-attachments/assets/7c55f0e0-f6e8-4e42-b25d-bb144a1c3e44)
+
 *(Note: `VisualizationBias.py` also generates `individual_bias_bar.png`, `group_gender_bias_bar.png`, `group_age_bias_bar.png`, and `group_occupation_bias_bar.png` as backup visualizations).*
 
 ## License
