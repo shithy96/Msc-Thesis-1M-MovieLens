@@ -87,7 +87,7 @@ POR_DPD.py Output: Prints detailed console logs showing the exact Positive Outco
 
 ## Generated PNGs (The 5 selected charts):
   - `accuracy_comparison.png`
-  - `individual_bias_reduction.png`
+  - `Individual_Bias_Reduction.png`
   - `Gender_POR_Comparison.png`
   - `age_group_bias_comparison.png`
   - `Fairness_Improvement_Summary.png`
