@@ -48,12 +48,16 @@ This work is designed for reproducibility and showcases comprehensive fairness m
 │   └── *.png files (All bar charts and comparison plots)
 
 How to Run (Reproduction Pipeline)
+
 Because the scripts are interdependent, you must run them in the exact order listed below.
+
 ### 1. Prerequisites
 Make sure you have the required Python libraries installed:
 ```bash
 pip install pandas numpy matplotlib scikit-learn
+
 ### 2. Execute the Analysis Pipeline
+
 Run the following commands sequentially in your terminal from the project's root directory:
 ```bash
 # Step 1: Train model and run counterfactual analysis (generates counterfactual_analysis.csv)
