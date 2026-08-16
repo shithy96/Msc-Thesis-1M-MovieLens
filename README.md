@@ -53,7 +53,6 @@ Because the scripts are interdependent, you must run them in the exact order lis
 Make sure you have the required Python libraries installed:
 ```bash
 pip install pandas numpy matplotlib scikit-learn
-```text
 ### 2. Execute the Analysis Pipeline
 Run the following commands sequentially in your terminal from the project's root directory:
 ```bash
