@@ -91,12 +91,13 @@ POR_DPD.py Output: Prints detailed console logs showing the exact Positive Outco
 - `Gender_POR_Comparison.png`
 - `age_group_bias_comparison.png`
 - `Fairness_Improvement_Summary.png`
-
+```bash
 ![accuracy_comparison](accuracy_comparison.png)
 ![individual_bias_reduction](individual_bias_reduction.png)
 ![Gender_POR_Comparison](Gender_POR_Comparison.png)
 ![age_group_bias_comparison](age_group_bias_comparison.png)
 ![Fairness_Improvement_Summary](Fairness_Improvement_Summary.png)
+```text
 *(Note: `VisualizationBias.py` also generates `individual_bias_bar.png`, `group_gender_bias_bar.png`, `group_age_bias_bar.png`, and `group_occupation_bias_bar.png` as backup visualizations).*
 
 ## License
