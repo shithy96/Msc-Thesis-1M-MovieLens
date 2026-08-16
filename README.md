@@ -86,11 +86,12 @@ Accuracy_1M.py Output: Shows that the fairness correction preserves nearly all m
 POR_DPD.py Output: Prints detailed console logs showing the exact Positive Outcome Rate for every gender, age group, and occupation—before and after the fairness correction.
 
 ## Generated PNGs (The 5 selected charts):
-  - `accuracy_comparison.png`
-  - `Individual_Bias_Reduction.png`
-  - `Gender_POR_Comparison.png`
-  - `age_group_bias_comparison.png`
-  - `Fairness_Improvement_Summary.png`
+- `accuracy_comparison.png`
+- `individual_bias_reduction.png`
+- `Gender_POR_Comparison.png`
+- `age_group_bias_comparison.png`
+- `Fairness_Improvement_Summary.png`
+
 ![accuracy_comparison](accuracy_comparison.png)
 ![individual_bias_reduction](individual_bias_reduction.png)
 ![Gender_POR_Comparison](Gender_POR_Comparison.png)
