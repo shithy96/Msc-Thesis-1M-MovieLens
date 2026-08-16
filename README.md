@@ -49,7 +49,6 @@ This work is designed for reproducibility and showcases comprehensive fairness m
 
 How to Run (Reproduction Pipeline)
 Because the scripts are interdependent, you must run them in the exact order listed below.
-```text
 ### 1. Prerequisites
 Make sure you have the required Python libraries installed:
 ```bash
