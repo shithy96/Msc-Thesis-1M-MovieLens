@@ -46,32 +46,35 @@ This work is designed for reproducibility and showcases comprehensive fairness m
 │   ├── occupation_bias_summary.csv
 │   ├── fairness_metrics_summary_all.csv
 │   └── *.png files (All bar charts and comparison plots)
+```
 
-How to Run (Reproduction Pipeline)
+## How to Run (Reproduction Pipeline)
 
 Because the scripts are interdependent, you must run them in the exact order listed below.
-```text
+
 ### 1. Prerequisites
+
 Make sure you have the required Python libraries installed:
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn
+```
 
 ### 2. Execute the Analysis Pipeline
 Run the following commands sequentially in your terminal from the project's root directory:
 
-```bash
-# Step 1: Train model and run counterfactual analysis (generates counterfactual_analysis.csv)
+ ```bash
+# Step 1: Train model and run counterfactual analysis
 python Individua_Bias.py
 
-# Step 2: Calculate group-level bias summaries (generates *_bias_summary.csv files)
+# Step 2: Calculate group-level bias summaries
 python GroupBias.py
 
 # Step 3: Calculate and visualize individual-level bias reduction
 python Individual_Bias_Reduction.py
 
 # Step 4: Apply group-level bias reduction and generate comparison charts
-python Group_Bias_Reduction.py     
+python Group_Bias_Reduction.py
 
 # Step 5: Calculate and compare original vs. fair prediction accuracy
 python Accuracy_1M.py
@@ -81,6 +84,8 @@ python POR_DPD.py
 
 # Step 7: Generate all final visualization PNG files
 python POR_DPD_Visualization.py
+```
+
 ## Outputs Explained
 counterfactual_analysis.csv: The core dataset containing 10,000 test samples, original predictions, gender-flipped predictions, and ground truths.
 
